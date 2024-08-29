@@ -6,11 +6,13 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="#FF42257B">
-        <Button Content="Login" HorizontalAlignment="Left" Height="57" Margin="299,289,0,0" VerticalAlignment="Top" Width="195" FontSize="18" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Center" Height="63" Margin="0,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262" FontSize="36"><Run Language="pt-br" Text="Pagina de login"/><LineBreak/><Run Language="pt-br"/></TextBlock>
-        <PasswordBox HorizontalAlignment="Center" Height="36" Margin="0,217,0,0" VerticalAlignment="Top" Width="385"/>
-        <TextBox HorizontalAlignment="Center" Height="33" Margin="0,162,0,0" TextWrapping="Wrap" Text="Login&#xD;&#xA;" VerticalAlignment="Top" Width="385" FontSize="18"/>
+    <Grid Background="#FF704BB7">
+        <Button Content="Confirmar" HorizontalAlignment="Center" Height="60" Margin="0,331,0,0" VerticalAlignment="Top" Width="200" FontSize="18" FontWeight="Bold" Background="#FF777676"/>
+        <TextBlock HorizontalAlignment="Center" Height="75" Margin="0,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" FontSize="55"><Run Language="pt-br" Text="Pagina de login"/><LineBreak/><Run Language="pt-br"/></TextBlock>
+        <PasswordBox HorizontalAlignment="Center" Height="40" Margin="0,244,0,0" VerticalAlignment="Top" Width="400" FontSize="25"/>
+        <TextBox HorizontalAlignment="Center" Height="40" Margin="0,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" FontSize="25"/>
+        <TextBlock HorizontalAlignment="Left" Height="44" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" Width="200" Margin="200,100,0,0" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Height="44" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Margin="200,200,0,0" FontSize="30"><Run Language="pt-br" Text="Senha"/></TextBlock>
 
     </Grid>
 </Window>
